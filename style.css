@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@400;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* COLOR */
+
+:root {
+    --main-bg-white: hsl(0, 0%, 100%);
+    --p-color-grayish-blue: hsl(220, 15%, 55%);
+    --h2-color-dark-blue: hsl(218, 44%, 22%);
+    --body-bg-light-gray: hsl(212, 45%, 89%);
+}
+
+/* BODY */
+
+body {
+    background-color: var(--body-bg-light-gray);
+    font-family: 'Outfit';
+    font-size: 15px;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+  
+}
+
+.layout {
+    background-color: var(--main-bg-white);
+    max-width: 320px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+    
+}
+
+/* IMAGE */
+
+img {
+    margin: auto;
+    height: auto;
+    padding: 15px;
+    border-radius: 25px;
+}
+/* TEXT */
+
+.text h2{
+    font-weight: 700;
+    padding: 10px 15px;
+    color: var(--h2-color-dark-blue);
+}
+
+.text p {
+    font-weight: 400;
+    padding: 10px; 
+    margin: 0 20px 30px;
+    color: var(--p-color-grayish-blue);
+}
